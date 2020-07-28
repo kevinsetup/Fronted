@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LibroComponent } from './libro/libro.component';
+import { ListComponent } from './list/list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LibroComponent
+    LibroComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
